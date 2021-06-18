@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  #",
+	" # ",
+	"p  "
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:ingots/iron"
+    },
+	"p": {
+		"tag": "forge:rods/wooden"
+	}
+  },
+  "result": {
+    "item": "minestuckarsenal:baton",
+    "count": 1
+  }
+}

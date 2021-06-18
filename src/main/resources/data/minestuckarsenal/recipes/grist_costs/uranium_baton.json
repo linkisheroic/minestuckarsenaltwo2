@@ -1,0 +1,10 @@
+{
+  "type": "minestuck:grist_cost",
+  "ingredient": {
+    "item": "minestuckarsenal:uranium_baton"
+  },
+  "grist_cost": {
+    "minestuck:build": 45,
+	"minestuck:uranium": 25
+  }
+}
