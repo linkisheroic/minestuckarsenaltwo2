@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "ingredient": {
+    "item": "minestuckarsenal:true_blue"
+  },
+  "grist_cost": {
+    "minestuck:build": 55,
+	"minestuck:rust": 20,
+	"minestuck:cobalt": 25
+  }
+}

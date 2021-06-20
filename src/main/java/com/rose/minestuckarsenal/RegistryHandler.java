@@ -51,21 +51,24 @@ public class RegistryHandler {
     public static void init(final RegistryEvent.Register<Item> event) {
         IForgeRegistry<Item> registry = event.getRegistry();
 
-        registry.register(new WeaponItem(new WeaponItem.Builder(ItemTier.IRON, 2, -2.4F).efficiency(3.0F).set(MSItemTypes.SWORD_TOOL).add(OnHitEffect.SWEEP), new Item.Properties().group(MSItemGroup.WEAPONS)).setRegistryName("house_key"));
+        registry.register(new WeaponItem(new WeaponItem.Builder(ItemTier.IRON, 1, -2.0F).efficiency(1.0F).set(MSItemTypes.MISC_TOOL), new Item.Properties().group(MSItemGroup.WEAPONS)).setRegistryName("keyboard_key"));
+
+        registry.register(new WeaponItem(new WeaponItem.Builder(ItemTier.IRON, 2, -2.3F).efficiency(3.0F).set(MSItemTypes.SWORD_TOOL), new Item.Properties().group(MSItemGroup.WEAPONS)).setRegistryName("house_key"));
         registry.register(new WeaponItem(new WeaponItem.Builder(ItemTier.IRON, 3, -2.4F).efficiency(3.0F).set(MSItemTypes.SWORD_TOOL).add(OnHitEffect.SWEEP), new Item.Properties().group(MSItemGroup.WEAPONS)).setRegistryName("key_blade"));
         registry.register(new WeaponItem(new WeaponItem.Builder(ItemTier.DIAMOND, 4, -2.4F).efficiency(3.0F).set(MSItemTypes.SWORD_TOOL).add(OnHitEffect.SWEEP), new Item.Properties().group(MSItemGroup.WEAPONS)).setRegistryName("true_blue"));
-        registry.register(new WeaponItem(new WeaponItem.Builder(ItemTier.DIAMOND, 5, -2.4F).efficiency(3.0F).set(MSItemTypes.SWORD_TOOL).add(OnHitEffect.SWEEP), new Item.Properties().group(MSItemGroup.WEAPONS)).setRegistryName("chronolatch"));
+        registry.register(new WeaponItem(new WeaponItem.Builder(ItemTier.DIAMOND, 5, -2.5F).efficiency(3.0F).set(MSItemTypes.SWORD_TOOL).add(OnHitEffect.SWEEP), new Item.Properties().group(MSItemGroup.WEAPONS)).setRegistryName("chronolatch"));
         registry.register(new WeaponItem(new WeaponItem.Builder(MSItemTypes.CANDY_TIER, 2, -2.4F).efficiency(3.0F).set(MSItemTypes.SWORD_TOOL).add(OnHitEffect.SWEEP), new Item.Properties().group(MSItemGroup.WEAPONS)).setRegistryName("candy_key"));
 
-        registry.register(new WeaponItem(new WeaponItem.Builder(ItemTier.IRON, 3, -2.6F).efficiency(3.0F).set(MSItemTypes.AXE_TOOL), new Item.Properties().group(MSItemGroup.WEAPONS)).setRegistryName("key_axe"));
+        registry.register(new WeaponItem(new WeaponItem.Builder(ItemTier.IRON, 3, -2.8F).efficiency(3.0F).set(MSItemTypes.AXE_TOOL), new Item.Properties().group(MSItemGroup.WEAPONS)).setRegistryName("key_axe"));
 
-        registry.register(new WeaponItem(new WeaponItem.Builder(ItemTier.IRON, 2, -2.4F).efficiency(3.0F).set(MSItemTypes.SWORD_TOOL), new Item.Properties().group(MSItemGroup.WEAPONS)).setRegistryName("baton"));
-        registry.register(new WeaponItem(new WeaponItem.Builder(ItemTier.IRON, 3, -2.4F).efficiency(3.0F).set(MSItemTypes.SWORD_TOOL), new Item.Properties().group(MSItemGroup.WEAPONS)).setRegistryName("twirling_baton"));
+        registry.register(new WeaponItem(new WeaponItem.Builder(ItemTier.IRON, 2, -2.2F).efficiency(3.0F).set(MSItemTypes.SWORD_TOOL), new Item.Properties().group(MSItemGroup.WEAPONS)).setRegistryName("baton"));
+        registry.register(new WeaponItem(new WeaponItem.Builder(ItemTier.IRON, 3, -2.3F).efficiency(3.0F).set(MSItemTypes.SWORD_TOOL), new Item.Properties().group(MSItemGroup.WEAPONS)).setRegistryName("twirling_baton"));
         registry.register(new WeaponItem(new WeaponItem.Builder(ItemTier.DIAMOND, 4, -2.4F).efficiency(3.0F).set(MSItemTypes.SWORD_TOOL), new Item.Properties().group(MSItemGroup.WEAPONS)).setRegistryName("uranium_baton"));
         registry.register(new WeaponItem(new WeaponItem.Builder(ItemTier.DIAMOND, 5, -2.4F).efficiency(3.0F).set(MSItemTypes.SWORD_TOOL), new Item.Properties().group(MSItemGroup.WEAPONS)).setRegistryName("celestial_fulcrum"));
         registry.register(new WeaponItem(new WeaponItem.Builder(ItemTier.DIAMOND, 6, -2.4F).efficiency(3.0F).set(MSItemTypes.SWORD_TOOL), new Item.Properties().group(MSItemGroup.WEAPONS)).setRegistryName("wind_waker"));
 
         registry.register(new WeaponItem(new WeaponItem.Builder(ItemTier.DIAMOND, 6, -2.4F).efficiency(3.0F).set(MSItemTypes.SWORD_TOOL).add(OnHitEffect.SWEEP), new Item.Properties().group(MSItemGroup.WEAPONS)).setRegistryName("yaldabaoths_keyton"));
+        registry.register(new WeaponItem(new WeaponItem.Builder(ItemTier.DIAMOND, 7, -2.2F).efficiency(15.0F).set(MSItemTypes.SWORD_TOOL).add(OnHitEffect.SWEEP), new Item.Properties().group(MSItemGroup.WEAPONS)).setRegistryName("allweddol"));
 
     }
     //Items

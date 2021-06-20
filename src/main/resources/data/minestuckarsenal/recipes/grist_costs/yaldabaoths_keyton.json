@@ -1,0 +1,12 @@
+{
+  "type": "minestuck:grist_cost",
+  "ingredient": {
+    "item": "minestuckarsenal:yaldabaoths_keyton"
+  },
+  "grist_cost": {
+	"minestuck:rust": 100,
+	"minestuck:garnet": 200,
+	"minestuck:mercury": 50,
+	"minestuck:gold": 10
+  }
+}

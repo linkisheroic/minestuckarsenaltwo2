@@ -1,0 +1,13 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minestuckarsenal:celestial_fulcrum"
+  },
+  "input2": {
+    "item": "minecraft:oak_boat"
+  },
+  "mode": "or",
+  "output": {
+    "item": "minestuckarsenal:wind_waker"
+  }
+}

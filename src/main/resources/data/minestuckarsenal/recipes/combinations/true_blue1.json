@@ -1,0 +1,13 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minestuckarsenal:key_blade"
+  },
+  "input2": {
+    "item": "minecraft:blue_dye"
+  },
+  "mode": "or",
+  "output": {
+    "item": "minestuckarsenal:true_blue"
+  }
+}

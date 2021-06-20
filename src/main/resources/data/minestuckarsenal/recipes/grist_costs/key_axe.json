@@ -1,0 +1,10 @@
+{
+  "type": "minestuck:grist_cost",
+  "ingredient": {
+    "item": "minestuckarsenal:key_axe"
+  },
+  "grist_cost": {
+	"minestuck:build": 75,
+	"minestuck:rust": 10
+  }
+}

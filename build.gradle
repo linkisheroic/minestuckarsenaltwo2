@@ -4,10 +4,12 @@ buildscript {
         jcenter()
         mavenCentral()
     }
+	
     dependencies {
         classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '3.+', changing: true
     }
 }
+
 apply plugin: 'net.minecraftforge.gradle'
 // Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
 apply plugin: 'eclipse'
@@ -20,6 +22,12 @@ archivesBaseName = 'minestuckarsenal'
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 //Print out JVM information so that we know what version is running. Extreamly useful for people to know when helping you.
 println('Java: ' + System.getProperty('java.version') + ' JVM: ' + System.getProperty('java.vm.version') + '(' + System.getProperty('java.vendor') + ') Arch: ' + System.getProperty('os.arch'))
+
+repositories {
+    maven {
+        url "https://www.cursemaven.com"
+    }
+}
 
 minecraft {
     // The mappings can be changed at any time, and must be in the following format.
@@ -92,7 +100,8 @@ dependencies {
     // that the dep is a ForgeGradle 'patcher' dependency. And it's patches will be applied.
     // The userdev artifact is a special name and will get all sorts of transformations applied to it.
     minecraft 'net.minecraftforge:forge:1.15.2-31.2.50'
-	compile files('libs/Minestuck-1.15.2-1.5.3.1.jar')
+    compile fg.deobf("curse.maven:minestuck-224635:3279333")
+	compile fg.deobf("curse.maven:jei-238222:3272032")
     // You may put jars on which you depend on in ./libs or you may define them like so..
     // compile "some.group:artifact:version:classifier"
     // compile "some.group:artifact:version"

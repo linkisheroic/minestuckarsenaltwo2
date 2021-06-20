@@ -1,0 +1,13 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minestuckarsenal:house_key"
+  },
+  "input2": {
+    "item": "minecraft:iron_sword"
+  },
+  "mode": "and",
+  "output": {
+    "item": "minestuckarsenal:key_blade"
+  }
+}

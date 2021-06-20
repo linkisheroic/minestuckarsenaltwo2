@@ -1,0 +1,13 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minestuckarsenal:celestial_fulcrum"
+  },
+  "input2": {
+    "item": "minestuckarsenal:chronolatch"
+  },
+  "mode": "and",
+  "output": {
+    "item": "minestuckarsenal:yaldabaoths_keyton"
+  }
+}

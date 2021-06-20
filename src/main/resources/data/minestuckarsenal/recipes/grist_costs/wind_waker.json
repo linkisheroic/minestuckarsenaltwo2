@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "ingredient": {
+    "item": "minestuckarsenal:wind_waker"
+  },
+  "grist_cost": {
+	"minestuck:build": 300,
+	"minestuck:cobalt": 50,
+	"minestuck:chalk": 150
+  }
+}

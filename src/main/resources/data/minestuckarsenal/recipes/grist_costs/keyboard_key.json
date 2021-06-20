@@ -1,9 +1,9 @@
 {
   "type": "minestuck:grist_cost",
   "ingredient": {
-    "item": "minestuckarsenal:house_key"
+    "item": "minestuckarsenal:keyboard_key"
   },
   "grist_cost": {
-    "minestuck:build": 53
+    "minestuck:build": 10
   }
 }

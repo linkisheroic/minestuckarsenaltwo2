@@ -4,7 +4,7 @@
     "item": "minecraft:clock"
   },
   "input2": {
-    "item": "minestuckarsenal:keyblade"
+    "item": "minestuckarsenal:key_blade"
   },
   "mode": "or",
   "output": {

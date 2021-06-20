@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "ingredient": {
+    "item": "minestuckarsenal:celestial_fulcrum"
+  },
+  "grist_cost": {
+	"minestuck:amethyst": 75,
+	"minestuck:uranium": 200,
+	"minestuck:ruby": 10
+  }
+}

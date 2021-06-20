@@ -1,0 +1,13 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:iron_axe"
+  },
+  "input2": {
+    "item": "minestuckarsenal:key_blade"
+  },
+  "mode": "or",
+  "output": {
+    "item": "minestuckarsenal:key_axe"
+  }
+}
